@@ -16,7 +16,9 @@ export function generateMetadata({
   image = SITE_CONFIG.ogImage,
   noIndex = false,
 }: SEOProps = {}): Metadata {
-  const fullTitle = title ? `${title} | ${SITE_CONFIG.name}` : `${SITE_CONFIG.name} — ${SITE_CONFIG.tagline}`;
+  const fullTitle = title
+    ? `${title} | ${SITE_CONFIG.name}`
+    : `${SITE_CONFIG.name} — ${SITE_CONFIG.tagline}`;
   const url = `${SITE_CONFIG.url}${path}`;
 
   return {
@@ -40,9 +42,8 @@ export function generateMetadata({
       description,
       images: [image],
     },
-    icons: {
-      icon: '/favicon.ico',
-      apple: '/logo/groovia-icon.png',
-    },
   };
 }
+
+// Alias — both names work
+export const createMetadata = generateMetadata;

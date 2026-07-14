@@ -38,12 +38,13 @@ export const FOOTER_LINKS = {
   company: [
     { label: 'About Us', href: '/about' },
     { label: 'Contact', href: '/contact' },
-    { label: 'FAQ', href: '/faq' },
+    { label: 'Careers', href: '/about#careers' },
   ],
   resources: [
     { label: 'FAQ', href: '/faq' },
-    { label: 'Support', href: '/contact' },
-    { label: 'Request Demo', href: '/contact' },
+    { label: 'Help Center', href: '/faq#help' },
+    { label: 'Request Demo', href: '/contact#demo' },
+    { label: 'Support', href: '/contact#support' },
   ],
   legal: [
     { label: 'Privacy Policy', href: '/privacy-policy' },

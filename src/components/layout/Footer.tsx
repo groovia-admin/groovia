@@ -148,8 +148,8 @@ function FooterColumn({ title, links }: { title: string; links: { label: string;
     <div>
       <h4 className="text-sm font-bold text-on-background mb-4 uppercase tracking-wider">{title}</h4>
       <ul className="space-y-3">
-        {links.map((link) => (
-          <li key={link.href}>
+        {links.map((link, index) => (
+        <li key={`${link.label}-${index}`}>
             <Link
               href={link.href}
               className="text-sm text-on-surface-variant hover:text-primary transition-colors"

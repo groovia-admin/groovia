@@ -1,0 +1,50 @@
+groovia-website/
+├── .env.local.example
+├── .gitignore
+├── README.md
+├── next.config.mjs
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+├── tsconfig.json
+├── public/
+│   ├── logo/
+│   │   ├── groovia-icon.png
+│   │   ├── groovia-horizontal.png
+│   │   └── groovia-wordmark.png
+│   ├── favicon.ico
+│   ├── og-image.png
+│   ├── robots.txt
+│   └── sitemap.xml
+└── src/
+    ├── app/
+    │   ├── layout.tsx
+    │   ├── page.tsx
+    │   ├── globals.css
+    │   ├── not-found.tsx
+    │   ├── about/page.tsx
+    │   ├── features/page.tsx
+    │   ├── pricing/page.tsx
+    │   ├── contact/page.tsx
+    │   ├── faq/page.tsx
+    │   ├── privacy-policy/page.tsx
+    │   └── terms/page.tsx
+    ├── components/
+    │   ├── ui/
+    │   │   ├── Button.tsx
+    │   │   ├── Container.tsx
+    │   │   ├── Section.tsx
+    │   │   ├── Card.tsx
+    │   │   ├── Badge.tsx
+    │   │   └── Logo.tsx
+    │   ├── layout/
+    │   │   ├── Navbar.tsx
+    │   │   └── Footer.tsx
+    │   └── sections/
+    │       └── (built in later parts)
+    ├── lib/
+    │   ├── constants.ts
+    │   ├── seo.ts
+    │   └── utils.ts
+    └── types/
+        └── index.ts

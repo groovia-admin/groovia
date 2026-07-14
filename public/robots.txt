@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://groovia.co.in/sitemap.xml

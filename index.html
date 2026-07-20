@@ -1,195 +1,323 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GrooVia — Ordering and inventory, made simple</title>
-<meta name="description" content="GrooVia is an online ordering platform that works without an app download, and helps vendors manage their inventory in real time.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GrooVia — Ordering and inventory, made simple</title>
+    <meta name="description"
+        content="GrooVia is an online ordering platform that works without an app download, and helps vendors manage their inventory in real time." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="legal.css" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
 </head>
+
 <body>
-
-<!-- ===== HEADER ===== -->
-<header class="site-header">
-  <div class="wrap header-inner">
-    <div class="brand">
-      <img src="assets/logo.jpeg" alt="GrooVia logo" class="brand-logo">
-    </div>
-    <p class="header-tag">Ordering and inventory, meeting in the middle</p>
-  </div>
-</header>
-
-<!-- ===== HERO ===== -->
-<section class="hero">
-  <svg class="hero-lines" viewBox="0 0 1200 520" preserveAspectRatio="none" aria-hidden="true">
-    <path d="M 120 40 C 260 220, 340 340, 560 500" fill="none" stroke="#2A8C8C" stroke-width="2" opacity="0.18"/>
-    <path d="M 200 40 C 320 220, 380 340, 620 500" fill="none" stroke="#2A8C8C" stroke-width="2" opacity="0.14"/>
-    <path d="M 1080 40 C 940 220, 860 340, 640 500" fill="none" stroke="#2A8C8C" stroke-width="2" opacity="0.18"/>
-    <path d="M 1000 40 C 880 220, 820 340, 600 500" fill="none" stroke="#2A8C8C" stroke-width="2" opacity="0.14"/>
-  </svg>
-  <div class="wrap hero-inner">
-    <h1>One platform.<br>Two sides of the same order.</h1>
-    <p class="hero-sub">GrooVia connects customers and vendors directly in the browser — no app to download, and no inventory left to guesswork.</p>
-    <div class="hero-split">
-      <div class="hero-split-item">
-        <span class="eyebrow eyebrow-customer">For customers</span>
-        <p>Order in seconds, right from a link.</p>
-      </div>
-      <div class="hero-divider" aria-hidden="true"></div>
-      <div class="hero-split-item">
-        <span class="eyebrow eyebrow-vendor">For vendors</span>
-        <p>Watch stock and sales update live.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== CUSTOMER BENEFITS ===== -->
-<section class="benefits" id="customers">
-  <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow eyebrow-customer">For customers</span>
-      <h2>Ordering, without the extra download</h2>
-      <p class="section-sub">Open a link, browse, and order. GrooVia runs entirely in the browser, so there's nothing to install and nothing to update.</p>
-    </div>
-    <div class="card-grid">
-
-      <div class="card">
-        <div class="icon icon-customer" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none"><rect x="14" y="6" width="20" height="36" rx="4" stroke="#2A8C8C" stroke-width="2.2"/><line x1="20" y1="38" x2="28" y2="38" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round"/><path d="M17 16 L38 16" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round" opacity="0.35"/><line x1="17" y1="16" x2="38" y2="16" stroke="#2A8C8C" stroke-width="0" /><path d="M32 12 L40 12 L40 20" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><line x1="40" y1="20" x2="32" y2="12" stroke="#2A8C8C" stroke-width="2.2" opacity="0"/><path d="M40 12 L32 20" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round"/></svg>
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <div class="brand">
+  <img src="assets/main-logo.png" alt="GrooVia logo" class="brand-logo">
+</div>
+<nav style="display: flex; gap: 20px; align-items: center;">
+  <a href="terms-and-condition.html" style="color: #64748b; text-decoration: none; font-size: 14px; font-weight: 500;">Terms</a>
+  <a href="privacy-policy.html" style="color: #64748b; text-decoration: none; font-size: 14px; font-weight: 500;">Privacy</a>
+  <a href="mailto:admin@groovia.co.in" style="color: #2A8C8C; text-decoration: none; font-size: 14px; font-weight: 600; padding: 8px 16px; border: 1.5px solid #2A8C8C; border-radius: 8px;">Contact</a>
+</nav>
         </div>
-        <h3>No app required</h3>
-        <p>Everything happens on a normal web page. No install, no storage used, no login walls before you can even look around.</p>
-      </div>
-
-      <div class="card">
-        <div class="icon icon-customer" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none"><circle cx="19" cy="38" r="2.4" fill="#2A8C8C"/><circle cx="33" cy="38" r="2.4" fill="#2A8C8C"/><path d="M8 8 H13 L18 30 H35 L40 14 H15" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </header>
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <svg class="hero-lines" viewBox="0 0 1200 520" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M 120 40 C 260 220, 340 340, 560 500" fill="none" stroke="#2A8C8C" stroke-width="2"
+                opacity="0.18" />
+            <path d="M 200 40 C 320 220, 380 340, 620 500" fill="none" stroke="#2A8C8C" stroke-width="2"
+                opacity="0.14" />
+            <path d="M 1080 40 C 940 220, 860 340, 640 500" fill="none" stroke="#2A8C8C" stroke-width="2"
+                opacity="0.18" />
+            <path d="M 1000 40 C 880 220, 820 340, 600 500" fill="none" stroke="#2A8C8C" stroke-width="2"
+                opacity="0.14" />
+        </svg>
+        <div class="wrap hero-inner">
+            <h1>One platform.<br />Two sides of the same order.</h1>
+            <p class="hero-sub">
+                GrooVia connects customers and vendors directly in the browser — no
+                app to download, and no inventory left to guesswork.
+            </p>
+            <div class="hero-split">
+                <div class="hero-split-item">
+                    <span class="eyebrow eyebrow-customer">For customers</span>
+                    <p>Order in seconds, right from a link.</p>
+                </div>
+                <div class="hero-divider" aria-hidden="true"></div>
+                <div class="hero-split-item">
+                    <span class="eyebrow eyebrow-vendor">For vendors</span>
+                    <p>Watch stock and sales update live.</p>
+                </div>
+            </div>
         </div>
-        <h3>Order in a few taps</h3>
-        <p>A simple, uncluttered ordering flow. Pick items, confirm, done — built for people who just want the order placed.</p>
-      </div>
-
-      <div class="card">
-        <div class="icon icon-customer" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="16" stroke="#2A8C8C" stroke-width="2.2"/><path d="M24 15 V24 L30 28" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </section>
+    <!-- ===== CUSTOMER BENEFITS ===== -->
+    <section class="benefits" id="customers">
+        <div class="wrap">
+            <div class="section-head">
+                <span class="eyebrow eyebrow-customer">For customers</span>
+                <h2>Ordering, without the extra download</h2>
+                <p class="section-sub">
+                    Open a link, browse, and order. GrooVia runs entirely in the
+                    browser, so there's nothing to install and nothing to update.
+                </p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="icon icon-customer" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <rect x="14" y="6" width="20" height="36" rx="4" stroke="#2A8C8C" stroke-width="2.2" />
+                            <line x1="20" y1="38" x2="28" y2="38" stroke="#2A8C8C" stroke-width="2.2"
+                                stroke-linecap="round" />
+                            <path d="M17 16 L38 16" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round"
+                                opacity="0.35" />
+                            <line x1="17" y1="16" x2="38" y2="16" stroke="#2A8C8C" stroke-width="0" />
+                            <path d="M32 12 L40 12 L40 20" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <line x1="40" y1="20" x2="32" y2="12" stroke="#2A8C8C" stroke-width="2.2" opacity="0" />
+                            <path d="M40 12 L32 20" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round" />
+                        </svg>
+                    </div>
+                    <h3>No app required</h3>
+                    <p>
+                        Everything happens on a normal web page. No install, no storage
+                        used, no login walls before you can even look around.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="icon icon-customer" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="19" cy="38" r="2.4" fill="#2A8C8C" />
+                            <circle cx="33" cy="38" r="2.4" fill="#2A8C8C" />
+                            <path d="M8 8 H13 L18 30 H35 L40 14 H15" stroke="#2A8C8C" stroke-width="2.2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Order in a few taps</h3>
+                    <p>
+                        A simple, uncluttered ordering flow. Pick items, confirm, done —
+                        built for people who just want the order placed.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="icon icon-customer" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="16" stroke="#2A8C8C" stroke-width="2.2" />
+                            <path d="M24 15 V24 L30 28" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Real-time order status</h3>
+                    <p>
+                        Know exactly where an order stands, because it's reading the same
+                        live data the vendor is looking at.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="icon icon-customer" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <path d="M24 6 L40 14 V24 C40 33 33 40 24 42 C15 40 8 33 8 24 V14 Z" stroke="#2A8C8C"
+                                stroke-width="2.2" stroke-linejoin="round" />
+                            <path d="M17 24 L22 29 L32 18" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Only what's actually available</h3>
+                    <p>
+                        Because it's tied to live vendor stock, what you see in the list
+                        is what can actually be ordered.
+                    </p>
+                </div>
+            </div>
         </div>
-        <h3>Real-time order status</h3>
-        <p>Know exactly where an order stands, because it's reading the same live data the vendor is looking at.</p>
-      </div>
-
-      <div class="card">
-        <div class="icon icon-customer" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none"><path d="M24 6 L40 14 V24 C40 33 33 40 24 42 C15 40 8 33 8 24 V14 Z" stroke="#2A8C8C" stroke-width="2.2" stroke-linejoin="round"/><path d="M17 24 L22 29 L32 18" stroke="#2A8C8C" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </section>
+    <!-- ===== VENDOR BENEFITS ===== -->
+    <section class="benefits benefits-alt" id="vendors">
+        <div class="wrap">
+            <div class="section-head">
+                <span class="eyebrow eyebrow-vendor">For vendors</span>
+                <h2>Inventory that keeps itself honest</h2>
+                <p class="section-sub">
+                    Every order pulls straight from live stock. No end-of-day recount,
+                    no guessing what's left on the shelf.
+                </p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="icon icon-vendor" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <path d="M8 16 L24 8 L40 16 L24 24 Z" stroke="#2F363F" stroke-width="2.2"
+                                stroke-linejoin="round" />
+                            <path d="M8 16 V32 L24 40 V24" stroke="#2F363F" stroke-width="2.2"
+                                stroke-linejoin="round" />
+                            <path d="M40 16 V32 L24 40" stroke="#2F363F" stroke-width="2.2" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <h3>Live stock tracking</h3>
+                    <p>
+                        Every order updates the count instantly, so the number on screen
+                        always matches what's on the shelf.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="icon icon-vendor" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <path d="M24 4 L28 16 L24 14 L20 16 Z" fill="#2F363F" />
+                            <path d="M24 14 V30" stroke="#2F363F" stroke-width="2.2" />
+                            <circle cx="24" cy="34" r="6" stroke="#2F363F" stroke-width="2.2" />
+                        </svg>
+                    </div>
+                    <h3>Low-stock alerts</h3>
+                    <p>
+                        Get flagged before an item runs out, instead of finding out from a
+                        customer's cancelled order.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="icon icon-vendor" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <line x1="9" y1="40" x2="39" y2="40" stroke="#2F363F" stroke-width="2.2"
+                                stroke-linecap="round" />
+                            <rect x="12" y="26" width="6" height="14" fill="#2F363F" />
+                            <rect x="22" y="18" width="6" height="22" fill="#2F363F" />
+                            <rect x="32" y="10" width="6" height="30" fill="#2F363F" />
+                        </svg>
+                    </div>
+                    <h3>Sales at a glance</h3>
+                    <p>
+                        See what's moving and what's sitting, without pulling a report
+                        together by hand.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="icon icon-vendor" aria-hidden="true">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <rect x="6" y="10" width="36" height="26" rx="3" stroke="#2F363F" stroke-width="2.2" />
+                            <line x1="6" y1="18" x2="42" y2="18" stroke="#2F363F" stroke-width="2.2" />
+                            <circle cx="13" cy="14" r="1.6" fill="#2F363F" />
+                            <circle cx="19" cy="14" r="1.6" fill="#2F363F" />
+                        </svg>
+                    </div>
+                    <h3>One dashboard, every order</h3>
+                    <p>
+                        All incoming orders land in a single place, already checked
+                        against what's actually in stock.
+                    </p>
+                </div>
+            </div>
         </div>
-        <h3>Only what's actually available</h3>
-        <p>Because it's tied to live vendor stock, what you see in the list is what can actually be ordered.</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ===== VENDOR BENEFITS ===== -->
-<section class="benefits benefits-alt" id="vendors">
-  <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow eyebrow-vendor">For vendors</span>
-      <h2>Inventory that keeps itself honest</h2>
-      <p class="section-sub">Every order pulls straight from live stock. No end-of-day recount, no guessing what's left on the shelf.</p>
-    </div>
-    <div class="card-grid">
-
-      <div class="card">
-        <div class="icon icon-vendor" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none"><path d="M8 16 L24 8 L40 16 L24 24 Z" stroke="#2F363F" stroke-width="2.2" stroke-linejoin="round"/><path d="M8 16 V32 L24 40 V24" stroke="#2F363F" stroke-width="2.2" stroke-linejoin="round"/><path d="M40 16 V32 L24 40" stroke="#2F363F" stroke-width="2.2" stroke-linejoin="round"/></svg>
+    </section>
+    <!-- ===== COMPARISON TABLE ===== -->
+    <section class="compare">
+        <div class="wrap">
+            <div class="section-head section-head-center">
+                <h2>What each side gets</h2>
+                <p class="section-sub">
+                    Same platform, built with both sides in mind.
+                </p>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">&nbsp;</th>
+                            <th scope="col">
+                                <span class="eyebrow eyebrow-customer">Customers</span>
+                            </th>
+                            <th scope="col">
+                                <span class="eyebrow eyebrow-vendor">Vendors</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Getting started</th>
+                            <td>Open a link — no app to download</td>
+                            <td>Set up a stock list once, right from the browser</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">What updates live</th>
+                            <td>Order status, from placed to ready</td>
+                            <td>Stock counts, with every order</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">What it replaces</th>
+                            <td>Calling in orders or downloading yet another app</td>
+                            <td>Manual stock counts and paper ledgers</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Where it works</th>
+                            <td>Any device with a browser</td>
+                            <td>Any device with a browser</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
-        <h3>Live stock tracking</h3>
-        <p>Every order updates the count instantly, so the number on screen always matches what's on the shelf.</p>
-      </div>
+    </section>
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <img src="assets/main-logo.png" alt="GrooVia logo" class="footer-logo" />
+            <p class="footer-note">
+                GrooVia is currently an informational preview. Ordering and vendor
+                sign-up are coming soon.
+            </p>
 
-      <div class="card">
-        <div class="icon icon-vendor" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none"><path d="M24 4 L28 16 L24 14 L20 16 Z" fill="#2F363F"/><path d="M24 14 V30" stroke="#2F363F" stroke-width="2.2"/><circle cx="24" cy="34" r="6" stroke="#2F363F" stroke-width="2.2"/></svg>
+            <nav class="footer-links" aria-label="Legal">
+                <a href="terms.html">Terms &amp; Conditions</a>
+                <span class="footer-sep" aria-hidden="true">&middot;</span>
+                <a href="privacy.html">Privacy Policy</a>
+                <span class="footer-sep" aria-hidden="true">&middot;</span>
+                <a href="mailto:admin@groovia.co.in">Contact</a>
+            </nav>
+
+            <p class="footer-meta">
+                GrooVia &middot; Ahmedabad, Gujarat, India &middot; Udyam Reg. No.
+                UDYAM-GJ-01-0655980
+            </p>
+            <p class="footer-copy">&copy; 2026 GrooVia. All rights reserved.</p>
+
+            <div style="
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+          ">
+                <a href="terms-and-condition.html" style="
+              color: #7dd3c0;
+              text-decoration: none;
+              margin: 0 12px;
+              font-size: 14px;
+            ">Terms & Conditions</a>
+                <span style="color: rgba(255, 255, 255, 0.3)">|</span>
+                <a href="privacy-policy.html" style="
+              color: #7dd3c0;
+              text-decoration: none;
+              margin: 0 12px;
+              font-size: 14px;
+            ">Privacy Policy</a>
+                <span style="color: rgba(255, 255, 255, 0.3)">|</span>
+                <a href="mailto:admin@groovia.co.in" style="
+              color: #7dd3c0;
+              text-decoration: none;
+              margin: 0 12px;
+              font-size: 14px;
+            ">Contact</a>
+            </div>
         </div>
-        <h3>Low-stock alerts</h3>
-        <p>Get flagged before an item runs out, instead of finding out from a customer's cancelled order.</p>
-      </div>
-
-      <div class="card">
-        <div class="icon icon-vendor" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none"><line x1="9" y1="40" x2="39" y2="40" stroke="#2F363F" stroke-width="2.2" stroke-linecap="round"/><rect x="12" y="26" width="6" height="14" fill="#2F363F"/><rect x="22" y="18" width="6" height="22" fill="#2F363F"/><rect x="32" y="10" width="6" height="30" fill="#2F363F"/></svg>
-        </div>
-        <h3>Sales at a glance</h3>
-        <p>See what's moving and what's sitting, without pulling a report together by hand.</p>
-      </div>
-
-      <div class="card">
-        <div class="icon icon-vendor" aria-hidden="true">
-          <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="26" rx="3" stroke="#2F363F" stroke-width="2.2"/><line x1="6" y1="18" x2="42" y2="18" stroke="#2F363F" stroke-width="2.2"/><circle cx="13" cy="14" r="1.6" fill="#2F363F"/><circle cx="19" cy="14" r="1.6" fill="#2F363F"/></svg>
-        </div>
-        <h3>One dashboard, every order</h3>
-        <p>All incoming orders land in a single place, already checked against what's actually in stock.</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ===== COMPARISON TABLE ===== -->
-<section class="compare">
-  <div class="wrap">
-    <div class="section-head section-head-center">
-      <h2>What each side gets</h2>
-      <p class="section-sub">Same platform, built with both sides in mind.</p>
-    </div>
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th scope="col">&nbsp;</th>
-            <th scope="col"><span class="eyebrow eyebrow-customer">Customers</span></th>
-            <th scope="col"><span class="eyebrow eyebrow-vendor">Vendors</span></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Getting started</th>
-            <td>Open a link — no app to download</td>
-            <td>Set up a stock list once, right from the browser</td>
-          </tr>
-          <tr>
-            <th scope="row">What updates live</th>
-            <td>Order status, from placed to ready</td>
-            <td>Stock counts, with every order</td>
-          </tr>
-          <tr>
-            <th scope="row">What it replaces</th>
-            <td>Calling in orders or downloading yet another app</td>
-            <td>Manual stock counts and paper ledgers</td>
-          </tr>
-          <tr>
-            <th scope="row">Where it works</th>
-            <td>Any device with a browser</td>
-            <td>Any device with a browser</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-
-<!-- ===== FOOTER ===== -->
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <img src="assets/logo.jpeg" alt="GrooVia logo" class="footer-logo">
-    <p class="footer-note">GrooVia is currently an informational preview. Ordering and vendor sign-up are coming soon.</p>
-    <p class="footer-copy">&copy; 2026 GrooVia. All rights reserved.</p>
-  </div>
-</footer>
-
+    </footer>
 </body>
+
 </html>

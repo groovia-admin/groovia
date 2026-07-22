@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Request — GrooVia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #334155; max-width: 600px; margin: 40px auto; padding: 20px; }
+        .form-box { border: 1px solid #e2e8f0; padding: 30px; border-radius: 12px; background: #f8fafc; }
+        h1 { color: #0f172a; margin-bottom: 8px; }
+        p { margin-bottom: 24px; font-size: 14px; }
+        label { display: block; margin-bottom: 6px; font-weight: 600; font-size: 14px; }
+        input, select, textarea { width: 100%; padding: 10px; margin-bottom: 16px; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; }
+        button { background: #2A8C8C; color: white; border: none; padding: 12px 20px; border-radius: 6px; cursor: pointer; font-weight: 600; width: 100%; }
+        button:hover { background: #237676; }
+        .back-link { display: block; margin-top: 20px; text-align: center; color: #64748b; text-decoration: none; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="form-box">
+        <h1>Request Data Deletion</h1>
+        <p>Fill out this form to request removal of your account or personal data from GrooVia.</p>
+        
+        <!-- Form linked to your admin email via Web3Forms -->
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY_HERE">
+            <input type="hidden" name="subject" value="New Data Deletion Request">
+
+            <label>Full Name</label>
+            <input type="text" name="name" required>
+
+            <label>Registered Email</label>
+            <input type="email" name="email" required>
+
+            <label>Registered Phone Number</label>
+            <input type="tel" name="phone" required>
+
+            <label>User Type</label>
+            <select name="user_type">
+                <option value="Merchant">Merchant (Shop Owner)</option>
+                <option value="Customer">End Customer (Shopper)</option>
+            </select>
+
+            <label>Request Type</label>
+            <select name="request_type">
+                <option value="Full Account Deletion">Full Account Deletion</option>
+                <option value="Specific Data Removal">Specific Data Removal</option>
+            </select>
+
+            <label>Reason (Optional)</label>
+            <textarea name="message" rows="3"></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+    <a href="index.html" class="back-link">← Back to Homepage</a>
+</body>
+<footer class="site-footer">
+        <div class="wrap footer-inner">
+            <img src="assets/main-logo.png" alt="GrooVia logo" class="footer-logo" />
+            <p class="footer-note">
+                GrooVia is currently an informational preview. Ordering and vendor
+                sign-up are coming soon.
+            </p>
+
+            <nav class="footer-links" aria-label="Legal">
+                <a href="terms.html">Terms &amp; Conditions</a>
+                <span class="footer-sep" aria-hidden="true">&middot;</span>
+                <a href="privacy.html">Privacy Policy</a>
+                <span class="footer-sep" aria-hidden="true">&middot;</span>
+                <a href="mailto:admin@groovia.co.in">Contact</a>
+            </nav>
+
+            <p class="footer-meta">
+                GrooVia &middot; Ahmedabad, Gujarat, India &middot; Udyam Reg. No.
+                UDYAM-GJ-01-0655980
+            </p>
+            <p class="footer-copy">&copy; 2026 GrooVia. All rights reserved.</p>
+
+            <div style="
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+          ">
+                <a href="terms-and-condition.html" style="
+              color: #7dd3c0;
+              text-decoration: none;
+              margin: 0 12px;
+              font-size: 14px;
+            ">Terms & Conditions</a>
+                <span style="color: rgba(255, 255, 255, 0.3)">|</span>
+                <a href="privacy-policy.html" style="
+              color: #7dd3c0;
+              text-decoration: none;
+              margin: 0 12px;
+              font-size: 14px;
+            ">Privacy Policy</a>
+                <span style="color: rgba(255, 255, 255, 0.3)">|</span>
+                <a href="mailto:admin@groovia.co.in" style="
+              color: #7dd3c0;
+              text-decoration: none;
+              margin: 0 12px;
+              font-size: 14px;
+            ">Contact</a>
+            <span style="color: rgba(255, 255, 255, 0.3)">|</span>
+                <a href="data-deletion.html" style="
+              color: #7dd3c0;
+              text-decoration: none;
+              margin: 0 12px;
+              font-size: 14px;
+            ">Data Deletion</a>
+           
+            </div>
+        </div>
+    </footer>
+</html>
